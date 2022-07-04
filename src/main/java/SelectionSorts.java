@@ -1,8 +1,8 @@
 import java.lang.reflect.Array;
 
-public class SelectionSorts implements Sorter{
+public class SelectionSorts implements Sorter {
     @Override
-    public  void sort(int[] array) {
+    public void sort(int[] array) {
         for (int i = 0; i < array.length; i++) {
             int pos = i;
             int min = array[i];

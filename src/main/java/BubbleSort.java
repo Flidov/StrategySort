@@ -1,6 +1,6 @@
 public class BubbleSort implements Sorter {
     @Override
-    public  void sort(int[] array) {
+    public void sort(int[] array) {
         boolean isSorted = false;
         int buf;
         while (!isSorted) {
